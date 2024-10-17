@@ -203,7 +203,7 @@ const Home = () => {
         duration: 3,
         ease: 'power2.inOut',
         onEnter: () => {
-          // containerRef.current.play();
+          containerRef.current.play();
         }
       });
     }
@@ -233,7 +233,7 @@ const Home = () => {
         src={Cover2}
         muted
         loop
-        // autoPlay
+        autoPlay
         className="home-bg"
         ref={containerRef}
       ></video>
